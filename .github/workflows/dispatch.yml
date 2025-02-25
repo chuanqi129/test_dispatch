@@ -26,8 +26,8 @@ jobs:
     name: dispatch_main_push
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      #- name: Checkout
+      #  uses: actions/checkout@v4
       - name: Run dispatch_main_push
         run: |
           echo "Running dispatch_main_push"
